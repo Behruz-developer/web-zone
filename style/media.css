@@ -1,0 +1,132 @@
+@media (max-width: 1170px) {
+    .intro_box{
+        justify-content: center;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .intro_text{
+        text-align: center;
+    }
+    .left_link_card{
+        justify-content: center;
+    }
+    .service_box{
+        justify-content: center;
+    }
+}
+@media (max-width: 960px) {
+    .header{
+        position: relative;
+    }
+    label {
+        display: block;
+    }
+    .close {
+        width: 20px;
+        position: absolute;
+        top: 15px;
+        left: 15px;
+    }
+    .menu1{
+
+    }
+    .menu{
+        background: none;
+    }
+    .nav_list {
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: black;
+        opacity: 0.8;
+        z-index: 99;
+        padding: 40px;
+        text-align: center;
+        /* justify-content: center; */
+        height: 100%;
+        transition: 0.5s;
+        transform: translateX(110%);
+        gap: 30px;
+        
+    }
+    #check:checked~.nav_list {
+        transform: translate(0);
+    }
+    .intro_img{
+        width: 550px;
+    }
+    .intro_title{
+        font-size: 50px;
+        line-height: 100%;
+    }
+    .intro_text{
+        margin-top: 15px;
+        line-height: 140%;
+        width: 100%;
+    }
+}
+@media (max-width: 860px) {
+    .intro_img{
+        width: 500px;
+    }
+    .intro_title{
+        font-size: 45px;
+    }
+}
+@media (max-width: 800px) {
+    .service_box{
+        overflow-x: hidden;
+        flex-wrap: nowrap;
+        justify-content: start;
+    }
+    .service_card{
+        flex-shrink: 0;
+    }
+    .nav{
+        padding: 30px 0;
+    }
+    .intro_img{
+        width: 450px;
+    }
+    .intro_link1{
+        padding: 15px 35px ;
+    }
+    .intro_title{
+        font-size: 40px;
+    }
+}
+@media (max-width: 750px) {
+    .intro_title{
+        font-size: 35px;
+    }
+    .nav{
+        padding: 25px 0;
+    }
+    .intro_img{
+        width: 450px;
+    }
+    .intro_link1{
+        padding: 13px 30px ;
+    }
+    .intro_left_card{
+        max-width: 545px;
+        width: 100%;
+    }
+}
+@media (max-width: 700px) {
+    .intro_link1{
+        padding: 12px 30px ;
+    }
+    .intro_img{
+        width: 400px;
+    }
+}
+@media (max-width: 650px) {
+    .intro_img{
+        width: 350px;
+    }
+    .intro_title{
+        font-size: 33px;
+    }
+}

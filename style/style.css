@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, rgb(18, 25, 43), rgb(19, 33, 68), rgb(33, 27, 54));
+    color: white;
+    font-family: Arial, sans-serif;
+
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.nav {
+    padding: 40px 0px;
+}
+
+.nav_logo img {
+    width: 96px;
+}
+
+.nav_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_list {
+    display: flex;
+    gap: 60px;
+    list-style: none;
+    align-items: center;
+}
+
+.nav_link {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18.23px;
+    color: white;
+}
+
+.contact {
+    padding: 12px 24px;
+    background: linear-gradient(90.35deg, #2563EB 0.36%, #D946EF 201.02%);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18.23px;
+
+}
+
+.menu,
+.close {
+    cursor: pointer;
+    width: 25px;
+}
+
+label {
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.intro_box {
+    display: flex;
+    align-items: center;
+}
+
+.intro_left_card {
+    width: 545px;
+}
+
+.intro_title {
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 84px;
+    background: linear-gradient(89.83deg, #2563EB 0.11%, #D946EF 58.65%);
+    background-clip: text;
+    display: inline;
+    color: transparent;
+}
+
+.intro_img {
+    width: 590px;
+}
+
+.intro_text {
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+}
+
+.left_link_card {
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+.intro_link1 {
+    padding: 20px 40px;
+    background: linear-gradient(90.35deg, #2563EB 0.36%, #D946EF 201.02%);
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.83px;
+
+}
+
+.intro_link2 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.title {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 54.68px;
+    text-align: center;
+}
+
+.text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    max-width: 587px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.service_box {
+    margin-top: 40px;
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.service_card {
+    border: 1px solid transparent;
+    background: linear-gradient(97.12deg, rgba(255, 255, 255, 0.08) -3.52%, rgba(255, 255, 255, 0.07) 100.35%);
+    width: 370px;
+    padding: 30px 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.service_img {
+    padding: 18px;
+    background: linear-gradient(180deg, #8A7FD9 0%, #402F8F 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service_card:nth-of-type(2) .service_img {
+    background: linear-gradient(180deg, #D97F95 0%, #923250 100%);
+}
+
+.service_card:nth-of-type(3) .service_img {
+    background: linear-gradient(180deg, #84D8ED 0%, #4292BB 100%);
+}
+
+.service_card:nth-of-type(4) .service_img {
+    background: linear-gradient(180deg, #92EFC3 0%, #2F8F5B 100%);
+}
+
+.service_card:nth-of-type(5) .service_img {
+    background: linear-gradient(180deg, #BC7FD9 0%, #923283 100%);
+}
+
+.service_card:nth-of-type(6) .service_img {
+    background: linear-gradient(180deg, #8684ED 0%, #4247BB 100%);
+}
+
+.service_title {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31.25px;
+    color: #fff;
+}
+
+.service_text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #fff;
+
+}
+
+.service_link {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+
+}
